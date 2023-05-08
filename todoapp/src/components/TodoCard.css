@@ -1,0 +1,28 @@
+.Card {
+  width: 255px;
+  height: 195px;
+  background-color: white;
+  border-radius: 10px;
+  border-bottom: solid 8px #ffe8c7;
+  padding: 15px;
+  margin: 15px 0px 20px 0px;
+}
+.title {
+  font-weight: bolder;
+}
+.date {
+  font-size: 13px;
+  color: #67686a;
+}
+.Card-name {
+  border-bottom: 1px solid #ebe7e7;
+  margin-bottom: 10px;
+}
+.description-title {
+  color: #a8acaf;
+  font-size: 14px;
+}
+.description-sub {
+  font-size: 14px;
+  margin-top: 13px;
+}

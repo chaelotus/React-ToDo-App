@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  margin-bottom: 30px;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  width: 65%;
+}
+.userInfo-img {
+  border-radius: 50%;
+  background-color: rgb(249, 173, 32);
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+}
+.userInfo-text > div:first-child {
+  font-size: 15px;
+  color: #b3b6ba;
+}
+.userInfo-text > div:last-child {
+  font-size: 18px;
+}
+.header-menu {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-alert,
+.header-nav {
+  width: 30px;
+  height: 30px;
+  font-size: 21px;
+  margin-top: 5px;
+  margin-left: 14px;
+  border: 1px solid #ecf1f7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5c5d61;
+}
+.Onprogress-title,
+.Completed-title {
+  font-weight: bold;
+}
+.todoCount,
+.completedCount {
+  color: #9ea3a7;
+}

@@ -1,0 +1,40 @@
+.CompletedCard {
+  width: 320px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  border-left: 8px solid #f8b6c0;
+  margin-top: 15px;
+  padding: 15px;
+}
+.completed-title {
+  color: #6c6c70;
+  text-decoration: line-through;
+  font-weight: bolder;
+}
+.completed-description {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.CompletedCard-name {
+  border-bottom: 1px solid #ebe7e7;
+  margin-bottom: 20px;
+  display: flex;
+}
+.CompletedCard-name > div:first-child {
+  width: 70%;
+}
+.CompletedCard-name > div:last-child {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.CompletedCheckIcon {
+  color: #2f85fe;
+  font-size: 25px;
+}
+.Completed-date {
+  font-size: 14px;
+  color: #919599;
+}
